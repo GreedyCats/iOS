@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB02EF7E1B61E942009CEBA8 /* JavascriptObjectDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02EF7D1B61E942009CEBA8 /* JavascriptObjectDelegate.swift */; };
+		BB02EF811B621112009CEBA8 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02EF801B621112009CEBA8 /* WebViewJavascriptBridge.m */; };
+		BB7D20DB1B5CC69B00E39BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D20DA1B5CC69B00E39BF8 /* AppDelegate.swift */; };
+		BB7D20DE1B5CC69B00E39BF8 /* GreedyCats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB7D20DC1B5CC69B00E39BF8 /* GreedyCats.xcdatamodeld */; };
+		BB7D20E01B5CC69B00E39BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D20DF1B5CC69B00E39BF8 /* ViewController.swift */; };
+		BB7D20E31B5CC69B00E39BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7D20E11B5CC69B00E39BF8 /* Main.storyboard */; };
+		BB7D20E51B5CC69B00E39BF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7D20E41B5CC69B00E39BF8 /* Images.xcassets */; };
+		BB7D20E81B5CC69B00E39BF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7D20E61B5CC69B00E39BF8 /* LaunchScreen.xib */; };
+		BB7D20F41B5CC69C00E39BF8 /* GreedyCatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D20F31B5CC69C00E39BF8 /* GreedyCatsTests.swift */; };
+		BB9625581B66132000F7501C /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9625571B66132000F7501C /* OtherViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB7D20EE1B5CC69C00E39BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB7D20CD1B5CC69B00E39BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB7D20D41B5CC69B00E39BF8;
+			remoteInfo = GreedyCats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB02EF7D1B61E942009CEBA8 /* JavascriptObjectDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavascriptObjectDelegate.swift; sourceTree = "<group>"; };
+		BB02EF7F1B621112009CEBA8 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		BB02EF801B621112009CEBA8 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		BB02EF841B621319009CEBA8 /* WebViewJavascriptBridge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB7D20D51B5CC69B00E39BF8 /* GreedyCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreedyCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7D20D91B5CC69B00E39BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7D20DA1B5CC69B00E39BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB7D20DD1B5CC69B00E39BF8 /* GreedyCats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GreedyCats.xcdatamodel; sourceTree = "<group>"; };
+		BB7D20DF1B5CC69B00E39BF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB7D20E21B5CC69B00E39BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB7D20E41B5CC69B00E39BF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB7D20E71B5CC69B00E39BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB7D20ED1B5CC69C00E39BF8 /* GreedyCatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreedyCatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7D20F21B5CC69C00E39BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7D20F31B5CC69C00E39BF8 /* GreedyCatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyCatsTests.swift; sourceTree = "<group>"; };
+		BB9625571B66132000F7501C /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7D20D21B5CC69B00E39BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7D20EA1B5CC69C00E39BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB7D20CC1B5CC69B00E39BF8 = {
+			isa = PBXGroup;
+			children = (
+				BB7D20D71B5CC69B00E39BF8 /* GreedyCats */,
+				BB7D20F01B5CC69C00E39BF8 /* GreedyCatsTests */,
+				BB7D20D61B5CC69B00E39BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7D20D61B5CC69B00E39BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D20D51B5CC69B00E39BF8 /* GreedyCats.app */,
+				BB7D20ED1B5CC69C00E39BF8 /* GreedyCatsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7D20D71B5CC69B00E39BF8 /* GreedyCats */ = {
+			isa = PBXGroup;
+			children = (
+				BB02EF7F1B621112009CEBA8 /* WebViewJavascriptBridge.h */,
+				BB02EF801B621112009CEBA8 /* WebViewJavascriptBridge.m */,
+				BB7D20DA1B5CC69B00E39BF8 /* AppDelegate.swift */,
+				BB7D20DF1B5CC69B00E39BF8 /* ViewController.swift */,
+				BB7D20E11B5CC69B00E39BF8 /* Main.storyboard */,
+				BB7D20E41B5CC69B00E39BF8 /* Images.xcassets */,
+				BB7D20E61B5CC69B00E39BF8 /* LaunchScreen.xib */,
+				BB7D20DC1B5CC69B00E39BF8 /* GreedyCats.xcdatamodeld */,
+				BB7D20D81B5CC69B00E39BF8 /* Supporting Files */,
+				BB02EF7D1B61E942009CEBA8 /* JavascriptObjectDelegate.swift */,
+				BB02EF841B621319009CEBA8 /* WebViewJavascriptBridge-Bridging-Header.h */,
+				BB9625571B66132000F7501C /* OtherViewController.swift */,
+			);
+			path = GreedyCats;
+			sourceTree = "<group>";
+		};
+		BB7D20D81B5CC69B00E39BF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D20D91B5CC69B00E39BF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB7D20F01B5CC69C00E39BF8 /* GreedyCatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D20F31B5CC69C00E39BF8 /* GreedyCatsTests.swift */,
+				BB7D20F11B5CC69C00E39BF8 /* Supporting Files */,
+			);
+			path = GreedyCatsTests;
+			sourceTree = "<group>";
+		};
+		BB7D20F11B5CC69C00E39BF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D20F21B5CC69C00E39BF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7D20D41B5CC69B00E39BF8 /* GreedyCats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7D20F71B5CC69C00E39BF8 /* Build configuration list for PBXNativeTarget "GreedyCats" */;
+			buildPhases = (
+				BB7D20D11B5CC69B00E39BF8 /* Sources */,
+				BB7D20D21B5CC69B00E39BF8 /* Frameworks */,
+				BB7D20D31B5CC69B00E39BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreedyCats;
+			productName = GreedyCats;
+			productReference = BB7D20D51B5CC69B00E39BF8 /* GreedyCats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB7D20EC1B5CC69C00E39BF8 /* GreedyCatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7D20FA1B5CC69C00E39BF8 /* Build configuration list for PBXNativeTarget "GreedyCatsTests" */;
+			buildPhases = (
+				BB7D20E91B5CC69C00E39BF8 /* Sources */,
+				BB7D20EA1B5CC69C00E39BF8 /* Frameworks */,
+				BB7D20EB1B5CC69C00E39BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7D20EF1B5CC69C00E39BF8 /* PBXTargetDependency */,
+			);
+			name = GreedyCatsTests;
+			productName = GreedyCatsTests;
+			productReference = BB7D20ED1B5CC69C00E39BF8 /* GreedyCatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB7D20CD1B5CC69B00E39BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kevin14;
+				TargetAttributes = {
+					BB7D20D41B5CC69B00E39BF8 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = HZGKZ53N7P;
+					};
+					BB7D20EC1B5CC69C00E39BF8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BB7D20D41B5CC69B00E39BF8;
+					};
+				};
+			};
+			buildConfigurationList = BB7D20D01B5CC69B00E39BF8 /* Build configuration list for PBXProject "GreedyCats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB7D20CC1B5CC69B00E39BF8;
+			productRefGroup = BB7D20D61B5CC69B00E39BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7D20D41B5CC69B00E39BF8 /* GreedyCats */,
+				BB7D20EC1B5CC69C00E39BF8 /* GreedyCatsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7D20D31B5CC69B00E39BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7D20E31B5CC69B00E39BF8 /* Main.storyboard in Resources */,
+				BB7D20E81B5CC69B00E39BF8 /* LaunchScreen.xib in Resources */,
+				BB7D20E51B5CC69B00E39BF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7D20EB1B5CC69C00E39BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7D20D11B5CC69B00E39BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7D20E01B5CC69B00E39BF8 /* ViewController.swift in Sources */,
+				BB9625581B66132000F7501C /* OtherViewController.swift in Sources */,
+				BB02EF811B621112009CEBA8 /* WebViewJavascriptBridge.m in Sources */,
+				BB02EF7E1B61E942009CEBA8 /* JavascriptObjectDelegate.swift in Sources */,
+				BB7D20DE1B5CC69B00E39BF8 /* GreedyCats.xcdatamodeld in Sources */,
+				BB7D20DB1B5CC69B00E39BF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7D20E91B5CC69C00E39BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7D20F41B5CC69C00E39BF8 /* GreedyCatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB7D20EF1B5CC69C00E39BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB7D20D41B5CC69B00E39BF8 /* GreedyCats */;
+			targetProxy = BB7D20EE1B5CC69C00E39BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB7D20E11B5CC69B00E39BF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7D20E21B5CC69B00E39BF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB7D20E61B5CC69B00E39BF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7D20E71B5CC69B00E39BF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB7D20F51B5CC69C00E39BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB7D20F61B5CC69C00E39BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB7D20F81B5CC69C00E39BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GreedyCats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB7D20F91B5CC69C00E39BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GreedyCats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB7D20FB1B5CC69C00E39BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GreedyCatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreedyCats.app/GreedyCats";
+			};
+			name = Debug;
+		};
+		BB7D20FC1B5CC69C00E39BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GreedyCatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreedyCats.app/GreedyCats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB7D20D01B5CC69B00E39BF8 /* Build configuration list for PBXProject "GreedyCats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7D20F51B5CC69C00E39BF8 /* Debug */,
+				BB7D20F61B5CC69C00E39BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7D20F71B5CC69C00E39BF8 /* Build configuration list for PBXNativeTarget "GreedyCats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7D20F81B5CC69C00E39BF8 /* Debug */,
+				BB7D20F91B5CC69C00E39BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7D20FA1B5CC69C00E39BF8 /* Build configuration list for PBXNativeTarget "GreedyCatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7D20FB1B5CC69C00E39BF8 /* Debug */,
+				BB7D20FC1B5CC69C00E39BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB7D20DC1B5CC69B00E39BF8 /* GreedyCats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB7D20DD1B5CC69B00E39BF8 /* GreedyCats.xcdatamodel */,
+			);
+			currentVersion = BB7D20DD1B5CC69B00E39BF8 /* GreedyCats.xcdatamodel */;
+			path = GreedyCats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB7D20CD1B5CC69B00E39BF8 /* Project object */;
+}

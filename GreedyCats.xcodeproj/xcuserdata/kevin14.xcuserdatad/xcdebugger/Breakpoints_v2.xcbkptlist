@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreedyCats/ViewController.swift"
+            timestampString = "459680164.969921"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "showMenu()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GreedyCats.ViewController.(showMenu in _D7C77072F3892929C9CD33E17AC29478) (GreedyCats.ViewController)() -&gt; ()"
+                  moduleName = "GreedyCats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kevin14/ios/GreedyCats/GreedyCats/ViewController.swift"
+                  timestampString = "459673629.979713"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "733">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Dead, Arg[2] = Value Promoted from InOut&gt; of GreedyCats.ViewController.((showMenu in _D7C77072F3892929C9CD33E17AC29478) (GreedyCats.ViewController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "GreedyCats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kevin14/ios/GreedyCats/GreedyCats/ViewController.swift"
+                  timestampString = "459673629.981224"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

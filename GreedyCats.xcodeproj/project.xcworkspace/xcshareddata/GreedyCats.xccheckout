@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FFD6FB27-36D3-4531-8561-A19140C35B99</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GreedyCats</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7AB5DC24EB34B7EF32EE07364DD50F0F42DF91CE</key>
+		<string>ssh://github.com/GreedyCats/iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GreedyCats.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7AB5DC24EB34B7EF32EE07364DD50F0F42DF91CE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/GreedyCats/iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7AB5DC24EB34B7EF32EE07364DD50F0F42DF91CE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7AB5DC24EB34B7EF32EE07364DD50F0F42DF91CE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GreedyCats</string>
+		</dict>
+	</array>
+</dict>
+</plist>
