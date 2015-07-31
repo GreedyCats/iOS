@@ -17,6 +17,8 @@
 		BB7D20E81B5CC69B00E39BF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7D20E61B5CC69B00E39BF8 /* LaunchScreen.xib */; };
 		BB7D20F41B5CC69C00E39BF8 /* GreedyCatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D20F31B5CC69C00E39BF8 /* GreedyCatsTests.swift */; };
 		BB9625581B66132000F7501C /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9625571B66132000F7501C /* OtherViewController.swift */; };
+		BBB1170E1B674C3400CEF185 /* GCconfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1170D1B674C3400CEF185 /* GCconfig.swift */; };
+		BBF1F3EC1B67766900B73F29 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF1F3EB1B67766900B73F29 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		BB7D20F21B5CC69C00E39BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB7D20F31B5CC69C00E39BF8 /* GreedyCatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyCatsTests.swift; sourceTree = "<group>"; };
 		BB9625571B66132000F7501C /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		BBB1170D1B674C3400CEF185 /* GCconfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCconfig.swift; sourceTree = "<group>"; };
+		BBF1F3EB1B67766900B73F29 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				BB02EF7D1B61E942009CEBA8 /* JavascriptObjectDelegate.swift */,
 				BB02EF841B621319009CEBA8 /* WebViewJavascriptBridge-Bridging-Header.h */,
 				BB9625571B66132000F7501C /* OtherViewController.swift */,
+				BBB1170D1B674C3400CEF185 /* GCconfig.swift */,
+				BBF1F3EB1B67766900B73F29 /* Config.swift */,
 			);
 			path = GreedyCats;
 			sourceTree = "<group>";
@@ -233,6 +239,8 @@
 				BB9625581B66132000F7501C /* OtherViewController.swift in Sources */,
 				BB02EF811B621112009CEBA8 /* WebViewJavascriptBridge.m in Sources */,
 				BB02EF7E1B61E942009CEBA8 /* JavascriptObjectDelegate.swift in Sources */,
+				BBB1170E1B674C3400CEF185 /* GCconfig.swift in Sources */,
+				BBF1F3EC1B67766900B73F29 /* Config.swift in Sources */,
 				BB7D20DE1B5CC69B00E39BF8 /* GreedyCats.xcdatamodeld in Sources */,
 				BB7D20DB1B5CC69B00E39BF8 /* AppDelegate.swift in Sources */,
 			);
@@ -363,7 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GreedyCats/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -375,7 +383,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GreedyCats/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

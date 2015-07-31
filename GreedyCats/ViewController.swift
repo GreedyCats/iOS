@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController,WKScriptMessageHandler{
+class ViewController: UIViewController,WKScriptMessageHandler,UIGestureRecognizerDelegate{
     
     private var webView:WKWebView!
     private var menu:WKWebView!
@@ -18,27 +18,29 @@ class ViewController: UIViewController,WKScriptMessageHandler{
     private let TRANSLATE_NUM:CGFloat = 1.1
     private let DURATION_NUM = 0.2
     private var fakeView:UIView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBarHidden = true
+        self.navigationController?.interactivePopGestureRecognizer.delegate = self
         self.initMenuAndHome()
     }
 
     func initMenuAndHome(){
+        
         var contentController = WKUserContentController()
-        contentController.addScriptMessageHandler(self, name: "showMenu")
-        contentController.addScriptMessageHandler(self, name: "goDetail")
+        contentController.addScriptMessageHandler(self, name: "show")
+        contentController.addScriptMessageHandler(self, name: "jump")
+        contentController.addScriptMessageHandler(self, name: "back")
         var config = WKWebViewConfiguration()
         config.userContentController = contentController
-        
         webView = WKWebView(frame: self.view.frame, configuration: config)
-        var url = NSURL(string:"http://localhost:3000/home.html")
+        var url = NSURL(string:Config.HOMEPAGE)
         var req = NSURLRequest(URL:url!)
         webView.loadRequest(req)
         
-        menu = WKWebView(frame: self.view.frame,configuration: config)
-        var menuUrl = NSURL(string:"http://localhost:3000/menu.html")
+        menu = WKWebView(frame: CGRectMake(0, -20, self.view.frame.width, self.view.frame.height+20),configuration: config)
+        var menuUrl = NSURL(string:Config.MENUPAGE)
         var menuReq = NSURLRequest(URL:menuUrl!)
         menu.loadRequest(menuReq)
         
@@ -61,11 +63,14 @@ class ViewController: UIViewController,WKScriptMessageHandler{
     
     func userContentController(userContentController: WKUserContentController, didReceiveScriptMessage message: WKScriptMessage) {
         switch message.name{
-            case "showMenu":
-                self.showMenu()
+            case "show":
+                self.showView(message.body as! NSDictionary)
                 break
-            case "goDetail":
-                self.goOther("goDetail", param: message.body as! String)
+            case "jump":
+                self.goPage(message.body as! NSDictionary)
+                break
+            case "back":
+                self.goPage(message.body as! NSDictionary)
                 break
             default:
                 break
@@ -95,15 +100,26 @@ class ViewController: UIViewController,WKScriptMessageHandler{
         })
     }
     
-    private func goOther(type:String,param:String){
-        switch type{
-            case "goDetail":
-                var detailID = param
-                var otherViewController = self.storyboard?.instantiateViewControllerWithIdentifier("OtherViewController") as! OtherViewController
-                self.navigationController?.pushViewController(otherViewController, animated: true)
-                break
-            default:
-                break
+    private func goPage(param:NSDictionary){
+        if let page:String = param.valueForKey("page") as? String{
+            let otherView = self.storyboard?.instantiateViewControllerWithIdentifier("OtherViewController") as! OtherViewController
+            otherView.pageUrl = Config.HOST + page
+            if let params = param.valueForKey("params") as? NSDictionary{
+                otherView.params = params
+            }
+            self.navigationController?.pushViewController(otherView, animated: true)
+        }
+    }
+    
+    private func showView(param:NSDictionary){
+        if let page:String = param.valueForKey("page") as? String{
+            switch page{
+                case "menu":
+                    self.showMenu()
+                    break
+                default:
+                    break
+            }
         }
     }
     
